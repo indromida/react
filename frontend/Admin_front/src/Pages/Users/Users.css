@@ -1,0 +1,91 @@
+.users-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+}
+
+.users-title {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #3498db;
+}
+
+.no-users {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #7f8c8d;
+}
+
+.users-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.users-table th,
+.users-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.users-table th {
+    background-color: #3498db;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.users-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.users-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.users-table td {
+    font-size: 0.9rem;
+    color: #2c3e50;
+}
+
+.action-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.action-button.edit {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.action-button.edit:hover {
+    background-color: #16a085;
+}
+
+.action-button.delete {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.action-button.delete:hover {
+    background-color: #c0392b;
+}
